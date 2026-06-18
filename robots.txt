@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hsaryous.github.io/chengyi-kaiyun-com-cn/sitemap.xml

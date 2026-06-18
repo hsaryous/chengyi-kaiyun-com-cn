@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简明指南 · 开云 · 访问提醒与使用说明</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #f0f2f5;
+            color: #1e1e2a;
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+        .page {
+            max-width: 780px;
+            margin: 0 auto;
+        }
+        /* hero 区域 — 更内敛，像文章题头 */
+        .hero {
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.2rem;
+            border-bottom: 1px solid #d6dae0;
+        }
+        .hero h1 {
+            font-size: 2rem;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+            color: #1b1f2b;
+            margin-bottom: 0.5rem;
+        }
+        .hero .subhead {
+            font-size: 1rem;
+            color: #4a4f5e;
+            border-left: 4px solid #b0b8c4;
+            padding-left: 1rem;
+            margin-top: 0.25rem;
+        }
+        /* 卡片式分区 */
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04), 0 1px 3px rgba(0,0,0,0.03);
+            border: 1px solid #e4e8ee;
+            padding: 1.8rem 1.6rem;
+            margin-bottom: 2rem;
+            transition: box-shadow 0.15s;
+        }
+        .card:hover {
+            box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+        }
+        .card h2 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #1e222f;
+            margin-bottom: 1rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 2px solid #eef1f6;
+        }
+        .card p {
+            margin-bottom: 0.9rem;
+        }
+        .card p:last-child {
+            margin-bottom: 0;
+        }
+        /* 引用提示块 */
+        .callout {
+            background: #f6f8fc;
+            border-left: 5px solid #838fa6;
+            border-radius: 0 12px 12px 0;
+            padding: 1.2rem 1.4rem;
+            margin: 1.5rem 0 1rem;
+            font-size: 0.95rem;
+            color: #2d3141;
+        }
+        .callout strong {
+            font-weight: 600;
+            color: #1b1f2b;
+        }
+        /* 内联链接 */
+        a {
+            color: #2a4b7c;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.15s;
+        }
+        a:hover {
+            border-bottom-color: #2a4b7c;
+        }
+        /* 列表 */
+        ul {
+            margin: 0.8rem 0 1rem 1.4rem;
+        }
+        ul li {
+            margin-bottom: 0.5rem;
+            list-style-type: disc;
+        }
+        /* 分隔线与脚注 */
+        .footnote {
+            margin-top: 2.8rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #dce1e8;
+            font-size: 0.85rem;
+            color: #5f6677;
+            text-align: center;
+        }
+        .footnote a {
+            color: #3d5a80;
+        }
+        /* 响应式 */
+        @media (max-width: 540px) {
+            body {
+                padding: 1.2rem 0.8rem;
+            }
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+            .card {
+                padding: 1.2rem;
+            }
+            .callout {
+                padding: 0.9rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <!-- 简洁博客式标题区 -->
+    <div class="hero">
+        <h1>开云 · 简明访问指南</h1>
+        <div class="subhead">从实用提醒到使用思路，一篇整理过的说明</div>
+    </div>
+
+    <!-- 正文段落：多段 + 自然嵌入链接（导语式） -->
+    <div class="card">
+        <h2>为什么需要这份指南</h2>
+        <p>日常浏览中，许多人会遇到入口模糊、内容分散的情况。如果你正在了解或使用「<a href="https://chengyi-kaiyun.com.cn">开云</a>」这个平台，那么一份结构清晰的说明页能帮你更快定位到有用的信息，而不是在页面间反复跳转。</p>
+        <p>以下内容不构成任何形式的建议或诱导，仅作为使用过程中的背景参考。建议你根据自身情况，独立判断并选择适合的访问方式。</p>
+    </div>
+
+    <div class="card">
+        <h2>常见使用场景</h2>
+        <p>根据不少使用者的反馈，<strong>开云</strong> 常出现在以下日常场景中：</p>
+        <ul>
+            <li>信息聚合与内容查找：许多人习惯在浏览器收藏栏保留该站点，用于快速检索某些主题的更新。</li>
+            <li>功能入口的辅助定位：部分用户会把它当作一个跳板，再根据实际需求深入具体页面。</li>
+            <li>临时访问与对比参考：在需要查阅多个来源时，<a href="https://chengyi-kaiyun.com.cn">开云</a> 往往被列在其中之一。</li>
+        </ul>
+        <p>无论你属于哪种情况，记住一个原则：<strong>先确认自己的目标，再选择对应的路径。</strong></p>
+    </div>
+
+    <!-- 引用提示块 — 突出提醒 -->
+    <div class="callout">
+        <strong>⏺ 访问提醒</strong><br>
+        每次访问之前，建议检查浏览器地址栏的域名是否为 <code>chengyi-kaiyun.com.cn</code>，并确保网络环境稳定。如遇页面加载异常，可稍后刷新或更换网络环境重试。
+    </div>
+
+    <div class="card">
+        <h2>保持简单的操作习惯</h2>
+        <p>对于不熟悉复杂界面的使用者，这里有一个很基础的思路：</p>
+        <p>第一步，直接在浏览器打开 <a href="https://chengyi-kaiyun.com.cn">开云</a>，等待页面完全加载。<br>
+        第二步，浏览页面上的导航或内容分区，找到你需要的功能或信息。<br>
+        第三步，记下关键路径，下次可以直接使用收藏夹或历史记录。</p>
+        <p>整个过程不涉及任何第三方工具或扩展，也不需要对系统做额外设置。如果你更喜欢简洁的操作流程，这套方法几乎不需要学习成本。</p>
+    </div>
+
+    <div class="card">
+        <h2>FAQ 摘要 · 三个常见疑问</h2>
+        <p><strong>Q1：页面加载较慢，是什么原因？</strong><br>
+        可能受本地网络、DNS解析或服务器响应影响。建议先刷新一次，如果问题持续，可以切换网络后重试。</p>
+        <p><strong>Q2：是否需要注册或登录才能使用？</strong><br>
+        这取决于你具体要使用的功能模块。部分内容无需登录即可浏览，某些个性化功能可能需要账户。建议以页面实际提示为准。</p>
+        <p><strong>Q3：如何确认我访问的是正确地址？</strong><br>
+        最可靠的方式是直接点击本页中的链接 <a href="https://chengyi-kaiyun.com.cn">开云</a>，或手动输入域名。警惕仿冒或相似拼写的站点。</p>
+    </div>
+
+    <!-- 结尾句 · 访问句 — 平实收束 -->
+    <div class="card" style="background: #fafbfd;">
+        <p style="font-size: 1rem;">这份指南仅作为信息整理，不包含任何形式的承诺或保证。如果你正在寻找一个清晰的起点，那么 <a href="https://chengyi-kaiyun.com.cn">开云</a> 本身也许就是最直接的路径。</p>
+    </div>
+
+    <div class="footnote">
+        <span>内容整理于日常观察 · 页面仅供说明参考</span><br>
+        <span style="display: inline-block; margin-top: 0.5rem;">— 保持清醒，独立判断 —</span>
+    </div>
+</div>
+</body>
+</html>
